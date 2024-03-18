@@ -1,0 +1,65 @@
+			MID TERM 2024 PAPER EXPLANATION
+
+Ques1
+a. it will rotate the content by left 2s complement of number by left
+b.As both store same contains “sggs” it has same address so it returns true
+c.as y=10
+	then 10+17=27
+d.as it is constructor we cant directly assign value it can be assigned with help of new keywoard
+e.here we have short value which is 2 power 16 which gives us 65536
+dividing it will give 137 that is odd 
+so modulas of both will be minused from original container
+
+
+
+
+
+Ques2.
+a.in these if in a program we have not declare sample class and while running code we call java sample.java then it will give error could not load main class sample
+
+b.String s=”sggs ;
+here one double inverted coma is missing giving these error
+
+
+
+
+
+c.
+
+class subseq{
+	boolean arrRequiredStringFound(String s1){
+		System.out.println(s1[2]);
+	}
+	public static void main(String args[]){
+		subseq s1=new subseq();
+		System.out.println(s1.isSubseq("sggs"));
+		
+	}
+}
+
+here we accessing by index and passing string so array required
+
+ques3
+void main(){
+//statements;
+}
+we can run these code using javac--release 21—enable preview fun.java <----file name
+
+
+ques4
+a.here it will go in recursion 
+b.here we are performing concat operation but not storing result after concat so it will only gives output as mid
+c.it will go in statck overflow exception
+d. static block is executed frist when class are load as midterm extends exam so parents class static block will be executed frist then child class
+after that program execution will shift to main if we created obj of child class it will load constructor of parent class frist then child class as soon as constructor is called init block will be executed first.
+
+Q ues 5
+here we will get 3 objects 
+as str 1 and str 3 are containg same contains so in heap memory both will refer two same object
+
+new keyword will created new object irrespective of contains in it
+
+str4 =str2 
+as str2 has term 
+and strr will also has same contains so both will refer to same contains.
+

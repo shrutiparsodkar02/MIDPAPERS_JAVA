@@ -1,0 +1,36 @@
+ques 1.
+	if we are using some variable further in code but we have not initilaize it 
+	example class java{
+	public static void main (String args[]){
+		int k;
+		for(int i=0;i<2;i++){
+			System.out.println(k);
+		}
+	}
+}
+
+here we have not initialize k 
+
+
+ques 2.
+	we can use substring method
+	compare method
+	equalTo method
+ques 3.
+	a--->it is executed as soon as class is loaded 
+	it does not need to created object to execute it
+	if we have to perform some function only one it then also we can use static block.
+	 
+	b--->
+	line 6 o/p Null
+	As it is wrapper class so it will have by default null value
+	
+	line 8 o/p --> -24
+	here we are typecasting int value int to byte
+	2024/256 =5 which is odd 
+	so we will take modulas then subtract it from value
+	so 2024%256   (2 power 8)
+	answer 232 
+	232-256
+	-24
+	it will store -24 in byte 
